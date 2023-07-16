@@ -1,0 +1,24 @@
+{
+  "name": "yu-ratel-toy",
+  "version": "1.0.0",
+  "description": "next js",
+  "main": "front.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yu-ratel/ratel-NextJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yu-ratel/ratel-NextJS/issues"
+  },
+  "homepage": "https://github.com/yu-ratel/ratel-NextJS#readme",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
