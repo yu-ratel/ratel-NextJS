@@ -1,7 +1,12 @@
-import React from "react";
+import Reatc from "react";
+import AppLayout from "../components/appLayout";
 
 const home = () => {
-  return <div>Hello next!</div>;
+  return (
+    <AppLayout>
+      <div> 남성을 위한 올영 pick 가이드!</div>
+    </AppLayout>
+  );
 };
 
 export default home;
