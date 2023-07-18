@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import "antd/dist/antd.css";
+import Head from "next/head";
 
-const Groomer = () => {
+const Groomer = ({ Component }) => {
   return (
     <>
+      <Head>
+        <meat charSet="utf-8" />
+        <title>Groomer</title>
+      </Head>
       <Component />
     </>
   );

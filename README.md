@@ -31,7 +31,7 @@
 
   > next js page의 공통부분들을 담는 곳
   > 모든 page의 부모
-  > 공통된 것을 담기때문에 import "antd/dist/antd.css" 는 여기만 있어도 됌.
+  > 공통된 것을 담기때문에 import "antd/dist/antd.css" 는 여기만 있어도 됌. -> 버전이 바뀌면서 이 구문은 필요없음.
 
 - next의 Head
   > import Head from 'next/head'로 별다른 서버 작업없이도 head tag 를 받을 수 있게해줌.
@@ -41,3 +41,5 @@
 - react 의 children props
   > react에서는 컴포넌트안에 무슨 데이터가 들어올지 모르는 경우에 사용하기위한 props이다.
   > 무슨 데이터가 들어오는지 알면 props에 name, age 이런식으로 줘도 되지만 모르는경우 { children } 을 사용하는게 유용하다.
+
+# 리액트의 선수 지식이 필요할 것 같아 잠시 중단 ----7/18----
